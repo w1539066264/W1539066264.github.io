@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper_header{
+    width: 100%;
+    /* height: 3.4rem; */
+    background-color: #0085ff;
+}
+.wrapper_header_wenzi{
+    width: 60%;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+.wrapper_header_wenzi span{
+    margin: 0 1.333333vw;
+    color: #ffffff;
+    max-width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.wrapper_sosuo{
+    width: 100%;
+    height: 2.2rem;
+    background-color: #0085ff;
+    text-align: center;
+    padding-top: 0.4rem;
+    position: sticky;
+    top: 0;
+
+}
+.wrapper_sosuo img{
+    vertical-align: -0.233rem;
+    padding-right: 0.25555rem;
+    
+}
+.wrapper_sosuo a{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-size: .373333rem;
+    color: darkgrey;
+    line-height: 1.8rem;
+}
+.sdasd{
+    
+}
+.daohanyi{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 2vw;
+}
+.daohanyi a{
+    width: 20%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    font-size: 0.7rem;
+    /* font-weight: bold; */
+    float: left;
+}
+.daohanyi img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 2.9333vw;
+    text-align: center;
+}
+/* .daohanyi a span{
+    margin-top: 1rem;
+} */
+
+.wrapper_ggao{
+    width: 95%;
+    /* height: 20rem; */
+    background-color: #f1f1f1;
+    clear: both;
+    margin: 0 auto;
+    /* position: relative; */
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+    overflow: hidden;
+    /* background: url("https://fuss10.elemecdn.com/e/ee/df43e7e53f6e1346c3fda0609f1d3png.png?imageMogr/format/webp/thumbnail/!282x188r/gravity/Center/crop/282x188/") no-repeat 0 0; */
+}
+.ggao_le{
+    width: 50%;
+    float: left;
+    clear: both;
+}
+.pingzhi{
+    width: 50%;
+    float: right;
+    /* background: url("https://fuss10.elemecdn.com/e/ee/df43e7e53f6e1346c3fda0609f1d3png.png?imageMogr/format/webp/thumbnail/!282x188r/gravity/Center/crop/282x188/") no-repeat 0 0; */
+
+}
+.wrapper_ggao img{
+    width:30vw;
+    height: 20vw;
+    /* position: absolute;
+    top:2.4vw;
+    right: 3.733333vw; */
+    float: right;
+    padding-right: 10vw;
+
+}
+.wrapper_ggao_h3{
+    font-size: .853333rem;
+    font-weight: 700;
+    margin-bottom: 1.3333333vw;
+    color: #000;
+}
+.wengzi{
+    font-size: .346667rem;
+    color: #777777;
+}
+.qg{
+    font-size: .32rem;
+    color: #af8260;
+    font-weight: 700;
+    margin: 0.4rem;
+    padding-bottom: 1rem;
+}
+.chaoji{
+    width: 98%;
+    background-color: #ffefc4;
+    margin: 2vw auto;
+    border-radius: 0.15555rem;
+    clear: both;
+}
+.chaojihuiy{
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 1vw;
+}
+.chaoji img{
+    width: 5vw;
+    vertical-align: -1vw;
+}
+.shengq{
+    color: #644f1b;
+    font-weight: 600;
+    font-size: 4vw;
+    padding-left: 1vw;
+    line-height: 10vw;
+}
+.weiwo{
+    font-size: 3vw;
+    color: #644f1b;
+}
+.chaoji_a{
+    float:right;
+    font-size: 3vw;
+    line-height: 10vw;
+    text-decoration: none;
+    color: #644f1b;
+}
+.jli{
+    font-size: 5vw;
+    vertical-align: -1vw;
+    color: #f0c44b;
+}
+.lunbotu{
+    width: 98%;
+    /* height: 10rem; */
+    margin: 0 auto;
+    margin-top: 2vw;
+}
+.lunbotu img{
+    width: 100%;
+    height: 23vw;
+}
+.tuij{
+    width: 98%;
+    line-height: 12vw;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 4.5vw;
+}
+.caidan{
+    width: 100%;
+    height: 10vw;
+    background-color: #0085ff;
+    position: sticky;
+    top: 2.6rem;
+}
+.paixu{
+    width: 25%;
+    height: 10vw;
+    background-color: #ffffff;
+    display: block;
+    float: left;
+    font-size: .573333rem;
+    line-height: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #666;
+}
+.paixu span{
+    font-size: 0.7666rem;
+}
+.paixu img{
+    vertical-align: -0.87777vw;
+}
+.shiwu_one{
+    width: 100%;
+    height: auto;
+    background-color: chartreuse;
+    border-bottom:.1rem solid #cdcdcd;
+}
+/* ..................... */
+.shiwu_er{
+    width: 100%;
+    height: 7rem;
+    background-color: #ffffff;
+    padding: 4vw 0;
+}
+.shangbiao{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+.shangbiao-img{
+    width: 4rem;
+    height: 4rem;
+    
+   
+}
+.shangbiao——img img{
+    width: 4rem;
+    height: 4rem;
+    vertical-align: -1.5555vw;
+    float: left;
+    overflow: hidden;
+}
+.canshu{
+    /* display: inline-block; */
+    float: left;
+    overflow: hidden;
+    padding-left: 2vw;
+    width: 75%;
+}
+/* .canshu h3{
+    display: inline-block;
+} */
+.canshuer h3{
+    display: inline-block;
+}
+.canshuer h3 i{
+    font-size: 2vw;
+    background-color: rgb(235, 211, 80);
+    font-style:normal;
+    padding: 0.8vw;
+    border-radius: .2vw;
+}
+.canshuer span{
+    font-size: 4vw;
+}
+.canshuer_ul{
+    /* float: right; */
+    /* display: flex; */
+    display: inline;
+    /* vertical-align: -10vw; */
+    padding-left: 6vw;
+}
+.canshusan{
+    width: 100%;
+}
+/* _________________________ */
+.canshusanyi{
+    width: 70%;
+    float: left;
+    background-color: #ffffff;
+}
+.canshusanyi span{
+    font-size: .5vw;
+}
+.canshusanyi .canshusan_xing{
+    display: inline-block;
+}
+.canshusanyi_y{
+    float: right;
+    font-size: .5vw;
+    line-height: 7.666vw;
+}
+
+.zhuanso{
+    color: #ffffff;
+    background-color: #0085ff;
+}
+.mm{
+    border: 1px solid #dcdcdc;
+    margin-right: .5vw;
+}
+.shodan{
+    color: #ffffff;
+    background-color: forestgreen;
+    padding: .5vw;
+}
+.dibu{
+    width: 100%;
+    height: 2.77777rem;
+    background-color: #ffffff;
+    border-top: .088888vw solid #cdcdcd;
+    position: sticky;
+    bottom: 0;
+    padding-top: 2.88888vw;
+}
+.dibuer{
+    width: 25%;
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+.dibuer a{
+    text-decoration: none;
+}
+.dibuer img{
+    width: 5vw;
+}
+.dibuer span{
+    font-size: .5vw;
+    color: #8e8e93;
+    display: inline-block;
+}

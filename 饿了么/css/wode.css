@@ -1,0 +1,146 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.box{
+    background-color: #f5f5f5;
+    height: 17.333333rem;
+}
+.head{
+    width: 94%;
+    height: 1.6rem;
+    padding: .666667rem 3%;
+    background-color: #008cff;
+    display: inline-block;
+}
+.touxiang{
+    width: 1.6rem;
+    height: 1.6rem;
+    background: url(../img/touxiang.png);
+    background-position: 0 8rem; 
+    background-size: 1.6rem;
+    border-radius: 50%;
+}
+.touxiang2{
+    position: relative;
+    margin-left: .48rem;
+    padding: .133333rem 0;
+}
+.touxiang2 span{
+    font-size: 0.56rem;
+    font-weight: 700;
+    color: #fff;
+}
+.touxiang2 p{
+    font-size: .32rem;
+    color: #fff;
+    padding-top: .133333rem;
+}
+.you{
+    position: absolute;
+    top:.4rem;
+    right:-4.666667rem;
+    font-size: .533333rem;
+    color: #fff;
+}
+.kuai1{
+    width: 100%;
+    height: 2.226667rem;
+    background-color: #fff;
+    margin-bottom: .266667rem;
+}
+.kuai1-1,.kuai1-2{
+    display: inline-block;
+    text-align: center;
+    width: 49.5%;
+}
+.kuai1-1{
+    border-right: .04rem solid #f5f5f5;
+}
+.kuai1-1 p:nth-child(2),.kuai1-2 p:nth-child(2){
+    color: #666;
+    font-weight: 600;
+    margin-bottom: .6rem;
+}
+.kuai1-1 p:nth-child(1),.kuai1-2 p:nth-child(1){
+    color: #ff5f3e;
+    padding-top: .266667rem;
+    padding-bottom: .066667rem;
+    font-weight: 600;
+}
+.kuai1-2 p:nth-child(1){
+    color: #6ac20b;
+}
+.kuai1-1 p:nth-child(1) span,.kuai1-2 p:nth-child(1) span{
+    font-size: .666667rem;
+    font-weight: 600;
+}
+.kuai2,.kuai3{
+    width: 94%;
+    height: 1.173333rem;
+    background-color: #fff;
+    border-top: .026667rem solid #ededed;
+    border-bottom: .026667rem solid #ededed;
+    margin-bottom: .266667rem;
+    line-height: 1.173333rem;
+    padding: 0 3%;
+    position: relative;
+}
+.kuai2 img,.kuai3 img{
+    position: absolute;
+    top: .333333rem;
+}
+.kuai3{
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.kuai2 span,.kuai3 span{
+    font-size: .426667rem;
+    margin-left: .666667rem;
+}
+.kuai2 .aaa,.kuai3 .aaa{
+    float: right;
+    color: #c6c6c6;
+    font-size: .48rem;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 1.333333rem;
+    border-top: .066667rem solid #efefef;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+  }
+  .footer1{
+      width: 2.493333rem;
+      text-align: center;
+      margin-top: .266667rem;
+      display: inline-block;
+  }
+  .footer a{
+    color: #818181;
+  }
+  .footer span{
+    font-size: .266667rem;
+    font-weight: 400;
+  }
+  .blue{
+    color: #008cff;
+  }
